@@ -1,2 +1,5 @@
 # swelines
-Software Engineering Guidelines
+
+Software Engineering Guidelines.
+
+Nothing ready here yet.
