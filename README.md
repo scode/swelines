@@ -1,0 +1,2 @@
+# swelines
+Software Engineering Guidelines
