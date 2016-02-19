@@ -427,7 +427,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_swel_1_careful_what_you_depend_on">SWEL-1 - Careful what you depend on</a></li>
+<li><a href="#_swel_1_balance_costs_and_benefits_of_code_reuse">SWEL-1 - Balance costs and benefits of code reuse</a></li>
 <li><a href="#_swel_2_don_t_break_the_abstraction">SWEL-2 - Don&#8217;t break the abstraction</a></li>
 <li><a href="#_swel_3_why_you_shouldn_t_use_x">SWEL-3 - Why you shouldn&#8217;t use X</a></li>
 <li><a href="#_swel_4_quality_commit_messages">SWEL-4 - Quality commit messages</a></li>
@@ -483,9 +483,40 @@ still be convinced to include a dissenting opinion in this document.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_swel_1_careful_what_you_depend_on">SWEL-1 - Careful what you depend on</h2>
+<h2 id="_swel_1_balance_costs_and_benefits_of_code_reuse">SWEL-1 - Balance costs and benefits of code reuse</h2>
 <div class="sectionbody">
-
+<div class="paragraph">
+<p>One might imagine the following spectrum. On one side of the spectrum,
+we have "excessive isolation" where you reuse as little code as
+possible in favor of devicing your own solution to the problem, and
+discouraging its reuse by others.</p>
+</div>
+<div class="paragraph">
+<p>On the other end of the spectrum, we have "excessive deduplication" -
+all code should be shared; if there is a library or component that
+seems to do what you need, you should obviously use it; if you write a
+novel component, you should encourage others to reuse it!</p>
+</div>
+<div class="paragraph">
+<p>Both of these are extremes, and the optimal path is often somewhere in
+between, and several different concerns should be considered when
+asking questions like:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Should I depend on X (library, tool, etc) to accomplish my task, or
+write my own?</p>
+</li>
+<li>
+<p>Should I encourage others to re-use my X (library, tool, etc) once
+I have written one?</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>TODO(scode): Finish.</p>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -635,7 +666,7 @@ without action.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2016-02-04 04:03:43 UTC
+Last updated 2016-02-19 07:28:15 UTC
 </div>
 </div>
 </body>
