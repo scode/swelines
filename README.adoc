@@ -1,4 +1,4 @@
-# swelines
+= swelines
 
 Software Engineering Guidelines.
 
